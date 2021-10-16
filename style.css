@@ -1,0 +1,30 @@
+/* fonts */
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:wght@700;900&display=swap");
+
+:root {
+  /* colors */
+  /* primary */
+  --soft-red: hsl(7, 99%, 70%);
+  --yellow: hsl(51, 100%, 49%);
+  --graphic-design-text: hsl(167, 40%, 24%);
+  --photography-text: hsl(198, 62%, 26%);
+  --footer-text: hsl(168, 34%, 41%);
+  /* neutral */
+  --text-color: hsl(212, 27%, 19%);
+  --light-text-color: hsl(213, 9%, 39%);
+  --muted-text-color: hsl(232, 10%, 55%);
+  --more-muted-text-color: hsl(210, 4%, 67%);
+  --background-color: hsl(0, 0%, 100%);
+}
+
+body {
+  font-size: 18px;
+}
+
+* {
+  /* remove defaults */
+  margin: 0;
+  padding: 0;
+}
+
+/* start of styling */
