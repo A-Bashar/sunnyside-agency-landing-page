@@ -55,20 +55,20 @@ header {
   color: var(--background-color);
   text-decoration: none;
   font-family: "Barlow", sans-serif;
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 .button-nav-link > a {
   color: var(--text-color);
   background-color: var(--background-color);
-  padding: 25px 35px;
+  padding: 15px 25px;
   border-radius: 9999px; /* this makes a pill shape */
   font-family: "Fraunces", sans-serif;
   text-transform: uppercase;
 }
 
 .logo {
-  height: 42px;
+  height: 32px;
   width: auto;
 }
 
@@ -76,7 +76,7 @@ header {
   color: var(--background-color);
   font-family: "Fraunces", sans-serif;
   text-transform: uppercase;
-  font-size: 3.6em;
+  font-size: 3em;
   text-align: center;
   letter-spacing: 0.3em;
   margin-top: 15vh;
