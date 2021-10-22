@@ -154,3 +154,47 @@ header {
 .about-link-container:hover .link-deco {
 	opacity: 1;
 }
+
+#services {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+}
+
+.service {
+  padding: 60% 170px 10% 170px;
+  text-align: center;
+}
+
+.graphic-design {
+  background: url('images/desktop/image-graphic-design.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.photography {
+  background: url('images/desktop/image-photography.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.service-title {
+  font-family: 'Fraunces', serif;
+  font-weight: 900;
+  margin-bottom: 30px;
+}
+
+.service-description {
+  font-family: 'Barlow', sans-serif;
+  font-size: .9em;
+  line-height: 1.6em;
+}
+
+.graphic-design .service-title, .graphic-design .service-description {
+  color: var(--graphic-design-text);
+}
+
+.photography .service-title, .photography .service-description {
+  color: var(--photography-text);
+}
