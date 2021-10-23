@@ -254,3 +254,14 @@ header {
   color: var(--more-muted-text-color);
   font-size: .8em;
 }
+
+#projects {
+  margin-top: 150px;
+  display: grid;
+  grid-template-columns: 4fr 4fr 4fr 4fr;
+}
+
+.project-image {
+  width: 100%;
+  height: auto;
+}
