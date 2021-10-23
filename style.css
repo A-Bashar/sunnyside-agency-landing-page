@@ -198,3 +198,59 @@ header {
 .photography .service-title, .photography .service-description {
   color: var(--photography-text);
 }
+
+#testimonials {
+  margin-top: 150px;
+}
+
+.testimonials-title {
+  text-align: center;
+  font-size: 1.1em;
+  font-family: 'Fraunces', serif;
+  color: var(--more-muted-text-color);
+  text-transform: uppercase;
+  letter-spacing: .2em;
+}
+
+.testimonials-container {
+  display: flex;
+  padding: 0 160px 0 160px;
+  margin-top: 70px;
+}
+
+.testimonial {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.testimonial-image {
+  border-radius: 50%;
+  width: 20%;
+  height: auto;
+  margin-bottom: 50px;
+}
+
+.testimonial-text {
+  font-family: 'Barlow', sans-serif;
+  color: var(--light-text-color);
+  font-size: 1em;
+  line-height: 1.6em;
+  margin-bottom: 60px;
+}
+
+.testimonial-name {
+  font-family: 'Fraunces', serif;
+  font-weight: 900;
+  color: var(--text-color);
+  margin-bottom: 15px;
+}
+
+.testimonial-proffession {
+  font-family: 'Barlow', sans-serif;
+  color: var(--more-muted-text-color);
+  font-size: .8em;
+}
